@@ -1,0 +1,37 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    estudos.txt                                        :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: fomanca <fomanca@student.42porto.com>      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/11/23 17:19:03 by fomanca           #+#    #+#              #
+#    Updated: 2025/11/23 18:18:29 by fomanca          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+LISTA: uma lista e uma colecao de itens ordenados quwe pode conter elementos de 
+       diferentes tipos de dados, sao acessadas por indices e e possivel
+	   adicionar, remover ou modificar os seus elementos
+
+
+TUPLA: e como se fosse uma lista mas diferente dela e imutavel isso significa 
+       que nao podemos alterar o valor dela diretamente, a utilidade das tuplas
+	   sao para guardar o valor de constantes como coordenadas ou algo que nao 
+	   pode mudar depois e para alterar o conteudo de uma tupla temos de criar 
+	   uma novo tupla e atribuir o objeto anterior e criamos o novo
+ex:
+
+	ft_tuple = ("Hello", "toto!")
+eu quero mudar o conteudo desta tupla para "Hello", "Portugal", para isso tenho de
+criar uma tupla nova e atribuo o objeto da da tupla anterior e crio o novo objeto
+
+
+SET: um set e uma colecao de elementos unicos e nao ordenados isso significa que 
+     nao pode ter elementos duplicados e nao e ordenado porque nao podemos acessa-lo 
+	 por indices e e mutavel podemos modificar, alterar e remover elementos, para acessar 
+	 um elemento de um set temos de iterar sobre ele
+
+DICTIONARY: e uma colecao de pares chave-valor, cada chave tem um valor associado e e 
+            mutavel, significa que  podemos alterar valores, adicionar ou remover pares
+			e nao e ordenado para acessar esses valores as chaves
